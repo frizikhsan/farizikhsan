@@ -665,6 +665,10 @@ video {
   margin-top: 0.5rem;
 }
 
+.mr-1 {
+  margin-right: 0.25rem;
+}
+
 .block {
   display: block;
 }
@@ -723,6 +727,10 @@ video {
 
 .w-5 {
   width: 1.25rem;
+}
+
+.w-screen {
+  width: 100vw;
 }
 
 .max-w-\[250px\] {
@@ -789,6 +797,10 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.justify-items-center {
+  justify-items: center;
 }
 
 .self-end {
@@ -1191,6 +1203,10 @@ body {
 }
 
 @media (min-width: 640px) {
+  .sm\:w-screen {
+    width: 100vw;
+  }
+
   .sm\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
